@@ -2,7 +2,8 @@
 
 <p style="text-align: center; font-size:18px;">
 Explore countries worldwide with an interactive search, responsive design, and real-time data fetched from the World Bank.
-</p>
+<br> Go to website here: <a href = "https://jakubmorawa.github.io/Country-Data/"> Country Data</a></p><br>
+
 
 <img src="Screenshot 2025-11-28 174033.png" alt="Country Data Explorer Screenshot" style="width:80%; max-width:800px; display:block; margin:20px auto; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
 
