@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Data</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="worldicon.png" rel = "icon">
+</head>
+<body>
+
+
+    <div class = "top">
+        <div class="headerDiv">
+            <img src = "worldicon.png"><h1>Country Data</h1>
+        </div>
+
+        <div class="wrapper">
+            <input type="text" id="search-input" placeholder="Search...">
+            <ul id="results"></ul>
+        </div>
+    </div>
+    
+    <hr>
+    <div class = "source">
+        <p>Data Source: <a href = "https://data.worldbank.org/country"> World Bank Group</a></p>
+    </div>
+
+    <div id = "country-name"></div>
+    <div id = "country-data"></div>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1.0/dist/fuse.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
