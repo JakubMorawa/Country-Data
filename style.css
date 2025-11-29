@@ -16,15 +16,18 @@ body {
 
 .top{
     background-color: var(--secondary-color);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .headerDiv {
     justify-self: center;
-    padding-top: 10px;
-    margin-bottom: 10px;
+    padding: 10px 20px; 
+    margin: 0 auto 10px auto; 
     color: var(--primary-color);
     display: flex;
     align-items: center; 
+    max-width: 1200px; 
 }
 
 .headerDiv h1{
@@ -59,6 +62,7 @@ body {
     background-repeat: no-repeat;
     background-size: 24px;
     background-position: 8px 8px; 
+    color: var(--primary-color); 
 }
 
 #results {
@@ -83,15 +87,20 @@ body {
 }
 
 #results button {
-    border-width: 0px;
-    background-color:white;
+    border: none;
+    background-color: white;
     width: 100%;
-    padding-top:5px;
-    padding-bottom:5px;
+    padding: 5px 10px;
     text-align: start;
     display: flex;
-    align-items: center; 
+    align-items: center;
     border-radius: 4px;
+    color: var(--primary-color); 
+    font-size: 20px;
+    line-height: 1.2;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
 }
 
 #results button:hover {
@@ -106,7 +115,8 @@ body {
 
 #results button img {
     margin-left: 10px;
-    width: 18px;
+    width: 20px;
+    vertical-align: middle;
 }
 
 .source{
