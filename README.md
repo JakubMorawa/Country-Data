@@ -1,7 +1,7 @@
-<h1 style="text-align: center;">🌍 Country Data Explorer</h1>
+<h1 style="text-align: center;">🌍 <a href = "https://jakubmorawa.github.io/Country-Data/"> Country Data</a></h1>
 
 <p style="text-align: center; font-size:18px;">
-Explore countries worldwide with an interactive search, responsive design, and real-time data fetched from the World Bank. <a href = "https://jakubmorawa.github.io/Country-Data/"> Country Data</a></p><br>
+Explore countries worldwide with an interactive search, responsive design, and real-time data fetched from the World Bank.
 
 
 <img src="Screenshot 2025-11-28 174033.png" alt="Country Data Explorer Screenshot" style="width:80%; max-width:800px; display:block; margin:20px auto; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.2);">
